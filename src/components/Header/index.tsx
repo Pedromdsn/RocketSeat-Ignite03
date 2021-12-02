@@ -1,3 +1,6 @@
+import { Logo } from "../../asserts";
+import { Container } from "./style";
+
 export default function Header() {
-  // TODO
+  return <Container>{Logo}</Container>;
 }
